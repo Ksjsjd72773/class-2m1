@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب - {{ class_name }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+</head>
+<body class="bg-light d-flex align-items-center" style="height: 100vh;">
+    <div class="card mx-auto shadow p-4" style="width: 90%; max-width: 380px; border-radius: 15px;">
+        <h3 class="text-center mb-4">إنشاء حساب جديد</h3>
+        <form method="POST">
+            <input type="text" name="username" class="form-control mb-3" placeholder="اختر اسم مستخدم" required>
+            <input type="password" name="password" class="form-control mb-3" placeholder="اختر كلمة سر" required>
+            <button class="btn btn-success w-100 fw-bold">تسجيل الحساب</button>
+        </form>
+        <p class="text-center mt-3 small"><a href="/login">العودة لتسجيل الدخول</a></p>
+    </div>
+</body>
+</html>
