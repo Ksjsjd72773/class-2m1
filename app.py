@@ -5,7 +5,7 @@ app.secret_key = "secret_memory_key"
 
 # ===== الإعدادات =====
 CLASS_NAME = "2م1"
-ADMIN_NAME = "عبد الحق"
+ADMIN_NAME = "skinzxking" 
 
 SUBJECTS = [
     "رياضيات",
